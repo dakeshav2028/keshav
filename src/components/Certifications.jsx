@@ -70,7 +70,7 @@ const Certifications = ({ darkMode }) => {
             {/* Certificate Image */}
             <div className="mb-6">
               <img
-                src={`/src/assets/images/${cert.image}`}
+                src={`/images/${cert.image}`}
                 alt={cert.title}
                 className="w-full h-64 object-cover rounded-lg"
                 onError={(e) => {
@@ -187,7 +187,7 @@ const Certifications = ({ darkMode }) => {
                 {/* Certificate Badge */}
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src={`/src/assets/images/${cert.image}`}
+                    src={`/images/${cert.image}`}
                     alt={cert.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     onError={(e) => {

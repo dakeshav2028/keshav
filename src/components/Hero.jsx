@@ -72,11 +72,16 @@ const Hero = ({ darkMode }) => {
                 <div className={`w-32 h-32 rounded-full ${darkMode ? 'bg-neural-dark' : 'bg-white'}`}></div>
               </motion.div>
               <img
-                src={`/src/assets/images/${personalInfo.profileImage}`}
+                src={`/images/${personalInfo.profileImage}`}
                 alt={personalInfo.name}
                 className="relative w-32 h-32 rounded-full object-cover border-4 border-transparent"
                 onError={(e) => {
-                  e.target.src = 'https://via.placeholder.com/128x128/0EF6CC/FFFFFF?text=Photo';
+                  e.target.style.display = 'none';
+                  e.target.parentElement.innerHTML = `
+                    <div class="w-32 h-32 rounded-full bg-gradient-to-br from-neural-cyan/30 to-purple-500/30 border-4 border-neural-cyan flex items-center justify-center">
+                      <div class="text-neural-cyan text-4xl">👨‍💻</div>
+                    </div>
+                  `;
                 }}
               />
             </div>

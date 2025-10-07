@@ -140,7 +140,7 @@ const Projects = ({ darkMode }) => {
                 {/* Project Image */}
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src={`/src/assets/images/${project.image}`}
+                    src={`/images/${project.image}`}
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     onError={(e) => {
