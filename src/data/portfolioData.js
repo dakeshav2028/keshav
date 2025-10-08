@@ -69,7 +69,7 @@ export const experience = [
     id: 1,
     company: "CodVeda Technologies",
     position: "Data Science Intern",
-    duration: "2024",
+    duration: "AUGUST,2025",
     location: "Remote",
     description: [
       "Worked on real-world data science projects and machine learning implementations",
@@ -83,7 +83,7 @@ export const experience = [
     id: 2,
     company: "Samatrix.io",
     position: "Data Analyst Intern",
-    duration: "2024",
+    duration: "Jully,2025",
     location: "Remote",
     description: [
       "Completed comprehensive data analysis training and certification",
@@ -97,7 +97,7 @@ export const experience = [
     id: 3,
     company: "NullClass",
     position: "Data Science Intern",
-    duration: "2024",
+    duration: "FEB,2025",
     location: "Remote",
     description: [
       "Participated in data science bootcamp and practical projects",
