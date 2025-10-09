@@ -19,11 +19,13 @@ const Hero = ({ darkMode }) => {
   }, [currentIndex, fullText]);
 
   const handleDownloadResume = () => {
-    // Create a link to download the resume PDF
+    // Create a link to download the resume PDF from public folder
     const link = document.createElement('a');
-    link.href = `/src/assets/pdfs/${personalInfo.resumeFile}`;
+    link.href = `/pdfs/${personalInfo.resumeFile}`;
     link.download = personalInfo.resumeFile;
+    document.body.appendChild(link);
     link.click();
+    document.body.removeChild(link);
   };
 
   const containerVariants = {
