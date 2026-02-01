@@ -19,7 +19,7 @@ export const personalInfo = {
   },
   
   // Resume PDF file name (place in src/assets/pdfs/)
-  resumeFile: "KESHAV_SARDA_resume.pdf",
+  resumeFile: "Keshav_Sarda_Resume.pdf",
   
   // Profile image file name (place in src/assets/images/)
   profileImage: "k1086.jpg",
@@ -69,7 +69,7 @@ export const experience = [
     id: 1,
     company: "CodVeda Technologies",
     position: "Data Science Intern",
-    duration: "AUGUST,2025",
+    duration: "2024",
     location: "Remote",
     description: [
       "Worked on real-world data science projects and machine learning implementations",
@@ -83,7 +83,7 @@ export const experience = [
     id: 2,
     company: "Samatrix.io",
     position: "Data Analyst Intern",
-    duration: "Jully,2025",
+    duration: "2024",
     location: "Remote",
     description: [
       "Completed comprehensive data analysis training and certification",
@@ -97,7 +97,7 @@ export const experience = [
     id: 3,
     company: "NullClass",
     position: "Data Science Intern",
-    duration: "FEB,2025",
+    duration: "2024",
     location: "Remote",
     description: [
       "Participated in data science bootcamp and practical projects",
@@ -135,7 +135,7 @@ export const projects = [
     featured: true
   },
   {
-    id: 6,
+    id: 3,
     title: "Data Professional Survey Breakdown",
     description: "Comprehensive Power BI dashboard breaking down survey data from data professionals across different domains.",
     image: "dpsdash.png",
@@ -172,7 +172,7 @@ export const projects = [
   },
   
   {
-    id: 3,
+    id: 6,
     title: "Google Play Store Review Analytics",
     description: "Created comprehensive data visualization using Google Play Store review datasets to extract meaningful insights.",
     image: "gpsra.png",
