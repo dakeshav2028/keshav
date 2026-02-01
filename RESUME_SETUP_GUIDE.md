@@ -11,8 +11,8 @@
 
 ### Step 2: Add your resume file
 1. Copy your resume PDF file
-2. Rename it to: `KESHAV_SARDA_resume.pdf`
-3. Place it in: `public/pdfs/KESHAV_SARDA_resume.pdf`
+2. Rename it to: `Keshav_Sarda_Resume.pdf`
+3. Place it in: `public/pdfs/Keshav_Sarda_Resume.pdf`
 
 ### Step 3: Folder structure should look like:
 ```
@@ -35,4 +35,4 @@ public/
 - Added proper DOM cleanup for the download link
 
 ## 📝 **Note:**
-The resume file must be exactly named `KESHAV_SARDA_resume.pdf` as specified in your portfolioData.js file.
+The resume file must be exactly named `Keshav_Sarda_Resume.pdf` as specified in your portfolioData.js file.

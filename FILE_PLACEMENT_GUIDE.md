@@ -11,7 +11,7 @@
 
 ### 📄 Resume PDF
 **Location:** `src/assets/pdfs/`
-**File Name:** `KESHAV_SARDA_resume.pdf`
+**File Name:** `Keshav_Sarda_Resume.pdf`
 - Rename your resume file to this exact name
 - Format: PDF
 - Size: Under 5MB recommended
