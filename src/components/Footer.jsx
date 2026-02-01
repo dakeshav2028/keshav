@@ -159,7 +159,7 @@ const Footer = ({ darkMode }) => {
 
               {/* Resume Download */}
               <motion.a
-                href={`/src/assets/pdfs/${personalInfo.resumeFile}`}
+                href={`public/pdfs/${personalInfo.resumeFile}`}
                 download={personalInfo.resumeFile}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
